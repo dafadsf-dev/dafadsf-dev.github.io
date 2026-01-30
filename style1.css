@@ -1,0 +1,108 @@
+#wrapper {
+  width: 1000px;
+  border: 1px solid black;
+    margin: 0 auto; /* centers horizontally */
+   padding: 20px;   /* adds space inside the border */
+  box-sizing: border-box; 
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #333;
+    font-size: 1em;
+    
+   background-color: rgb(19, 238, 12);       /* body background */
+  width: 1000px;                 /* optional fixed width */
+  margin: 0 auto;                /* centers the body */
+  border: 1px solid black; 
+
+
+
+}
+figure {
+  text-align: center;
+}
+img { border: 1px solid black; }
+.img-wrap-left {
+  float: left;
+  margin: 10px;
+}
+.img-wrap-right {
+  float: right;
+  margin: 10px;
+}
+html {
+  background-color: lightblue;   /* page background */
+}
+
+h1 {
+  font-size: 1.5em;        /* sets the size relative to the parent font size */
+  letter-spacing: 0.35em;   /* adds extra spacing between letters */
+  font-style: italic;  
+  color: blueviolet;    /* makes the text italic */
+}
+
+h2 {
+  font-size: 1.3em;        
+  letter-spacing: 0.35em;   
+  font-style: italic;      
+}
+a:link {
+  color: rgb(238, 205, 20);       /* change default link color */
+  text-decoration: none;  /* remove underline */
+  line-height: 1.6;       /* set line height */
+}
+
+/* Visited link state */
+a:visited {
+  color: purple;          /* color for visited links */
+  text-decoration: none;  /* still no underline */
+  line-height: 1.6;
+}
+
+
+
+/* Active link state (when clicked) */
+a:active {
+  color: orange;          /* color when link is active */
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+/* Hover state */
+a:hover {
+  color: red;             /* color when mouse hovers */
+  text-decoration: underline; /* underline on hover */
+  line-height: 1.6;
+}
+#f{
+    color:gold;
+
+}
+.r{
+    color:red
+}
+.b{
+    color:blue
+}
+.trans {
+   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section { padding: 15px; }
+#contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 20px;
+}
+#special-offer {
+  background-color: red;
+  font-weight: bold;
+  padding: 10px;
+  
+}

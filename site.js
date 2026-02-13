@@ -11,3 +11,4 @@ const isEvening = hours >= 17 || hours < 4 // is it evening?
   h1.textContent="Good Afternoon!" }
  else {
   h1.textContent="Good Evening!" }
+  localStorage.setItem("It's a secret to everybody.", "Here, take this!");
